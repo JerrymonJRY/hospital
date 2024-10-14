@@ -1,0 +1,41 @@
+[
+    {
+        "header": "",
+        "items": [
+            {
+                "text": "Dashboard",
+                "icon": "bx bx-home",
+                "available": true,
+                "link": "/"
+            },
+            {
+                "text": "Layouts",
+                "icon": "bx bx-layout",
+                "available": true,
+                "link": "/ui",
+                "submenu": [
+                    {
+                        "text": "Patient",
+                        "available": true,
+                        "link": "/layout/patient"
+                    },
+                    {
+                        "text": "Appointment",
+                        "available": true,
+                        "link": "/layout/appointment"
+                    },
+                    {
+                        "text": "Nurse",
+                        "available": true,
+                        "link": "/layout/container"
+                    }
+                   
+                    
+                ]
+            }
+           
+        ]
+    }
+   
+   
+]
